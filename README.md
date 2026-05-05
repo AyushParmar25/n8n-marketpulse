@@ -14,6 +14,10 @@ A self-hosted financial market intelligence pipeline built on N8N, PostgreSQL, a
 
 ## Architecture
 
+![N8N Workflow Architecture](screenshots/architecture.png)
+
+> Full 13-node N8N workflow — from RSS ingestion through two-stage Groq LLM analysis to PostgreSQL persistence and Gmail delivery.
+
 ```
 Schedule Trigger (weekdays 7:30 AM)
         │
