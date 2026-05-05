@@ -1,0 +1,28 @@
+# Docker volumes (never commit database data)
+postgres_data/
+n8n_data/
+
+# Environment files with secrets
+.env
+.env.local
+*.env
+
+# N8N internal files
+.n8n/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+logs/
+
+# Temp files
+*.tmp
