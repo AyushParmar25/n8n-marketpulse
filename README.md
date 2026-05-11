@@ -63,14 +63,14 @@ Gmail (OAuth2)              ← send daily briefing
 
 ## Features
 
-- **Automated scheduling** — runs every weekday morning via N8N cron trigger
-- **Multi-article ingestion** — fetches and processes up to 10 articles per run from Yahoo Finance RSS
-- **Two-stage LLM pipeline** — per-article structured extraction followed by aggregate synthesis
-- **Structured sentiment analysis** — extracts sentiment label, confidence score, summary, and risk keywords per article
-- **PostgreSQL persistence** — stores all article analysis and daily briefings with indexed queries for historical tracking
-- **Professional HTML email** — styled briefing with sentiment statistics, key themes, notable developments, risk factors, and outlook
-- **Fully self-hosted** — runs on your own machine via Docker Compose, no cloud subscriptions needed
-- **Zero ongoing cost** — Groq free tier, Yahoo Finance RSS (no key), Gmail OAuth2
+- **Automated scheduling** : runs every weekday morning via N8N cron trigger
+- **Multi-article ingestion** : fetches and processes up to 10 articles per run from Yahoo Finance RSS
+- **Two-stage LLM pipeline** : per-article structured extraction followed by aggregate synthesis
+- **Structured sentiment analysis** : extracts sentiment label, confidence score, summary, and risk keywords per article
+- **PostgreSQL persistence** : stores all article analysis and daily briefings with indexed queries for historical tracking
+- **Professional HTML email** : styled briefing with sentiment statistics, key themes, notable developments, risk factors, and outlook
+- **Fully self-hosted** : runs on your own machine via Docker Compose, no cloud subscriptions needed
+- **Zero ongoing cost** : Groq free tier, Yahoo Finance RSS (no key), Gmail OAuth2
 
 ---
 
