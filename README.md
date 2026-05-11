@@ -1,6 +1,6 @@
 # MarketPulse Intelligence Agent
 
-A self-hosted financial market intelligence pipeline built on N8N, PostgreSQL, and Groq AI (Llama 3.1). Automatically fetches financial news from Yahoo Finance RSS, analyses each article using an LLM for structured sentiment extraction, persists results in PostgreSQL, and delivers a professional daily briefing to your inbox — fully automated, zero cloud cost.
+A self-hosted financial market intelligence pipeline built on N8N, PostgreSQL, and Groq AI (Llama 3.1). Automatically fetches financial news from Yahoo Finance RSS, analyses each article using an LLM for structured sentiment extraction, persists results in PostgreSQL, and delivers a professional daily briefing to your inbox, fully automated, zero cloud cost.
 
 ---
 
@@ -16,7 +16,7 @@ A self-hosted financial market intelligence pipeline built on N8N, PostgreSQL, a
 
 ![N8N Workflow Architecture](screenshots/architecture.png)
 
-> Full 13-node N8N workflow — from RSS ingestion through two-stage Groq LLM analysis to PostgreSQL persistence and Gmail delivery.
+> Full 13-node N8N workflow from RSS ingestion through two-stage Groq LLM analysis to PostgreSQL persistence and Gmail delivery.
 
 ```
 Schedule Trigger (weekdays 7:30 AM)
@@ -222,7 +222,7 @@ To update `workflows/marketpulse_workflow.json` with your current workflow:
 3. Click **Download**
 4. Replace `workflows/marketpulse_workflow.json` with the downloaded file
 
-> Note: N8N strips credential values from exports automatically — safe to commit.
+> Note: N8N strips credential values from exports automatically safe to commit.
 
 ---
 
